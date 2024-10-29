@@ -9,21 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d532cec-f59a-4960-b3b9-7dd74517f80d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.QuickShiftApplication/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.QuickShiftApplication/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.QuickShiftApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.QuickShiftApplication/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickShiftApplication/bin/Debug/net8.0/QuickShiftApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuickShiftApplication/bin/Debug/net8.0/QuickShiftApplication.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickShiftApplication/bin/Debug/net8.0/QuickShiftApplication.exe" beforeDir="false" afterPath="$PROJECT_DIR$/QuickShiftApplication/bin/Debug/net8.0/QuickShiftApplication.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickShiftApplication/bin/Debug/net8.0/QuickShiftApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/QuickShiftApplication/bin/Debug/net8.0/QuickShiftApplication.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickShiftApplication/obj/Debug/net8.0/QuickShiftApplication.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QuickShiftApplication/obj/Debug/net8.0/QuickShiftApplication.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickShiftApplication/obj/Debug/net8.0/QuickShiftApplication.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QuickShiftApplication/obj/Debug/net8.0/QuickShiftApplication.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickShiftApplication/obj/Debug/net8.0/QuickShiftApplication.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/QuickShiftApplication/obj/Debug/net8.0/QuickShiftApplication.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickShiftApplication/obj/Debug/net8.0/QuickShiftApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuickShiftApplication/obj/Debug/net8.0/QuickShiftApplication.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickShiftApplication/obj/Debug/net8.0/QuickShiftApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/QuickShiftApplication/obj/Debug/net8.0/QuickShiftApplication.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickShiftApplication/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/QuickShiftApplication/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickShiftApplication/obj/Debug/net8.0/ref/QuickShiftApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuickShiftApplication/obj/Debug/net8.0/ref/QuickShiftApplication.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickShiftApplication/obj/Debug/net8.0/refint/QuickShiftApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QuickShiftApplication/obj/Debug/net8.0/refint/QuickShiftApplication.dll" afterDir="false" />
-    </list>
+    <list default="true" id="2d532cec-f59a-4960-b3b9-7dd74517f80d" name="Changes" comment="asd" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +40,10 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24372012c6c94138bf3f496e104366ffc8f918/6f/3d4e9992/ExceptionDispatchInfo.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -139,15 +129,27 @@
       <workItem from="1730133247619" duration="416000" />
       <workItem from="1730204792650" duration="1738000" />
       <workItem from="1730239685315" duration="305000" />
-      <workItem from="1730240001081" duration="103000" />
+      <workItem from="1730240001081" duration="399000" />
     </task>
+    <task id="LOCAL-00001" summary="asd">
+      <option name="closed" value="true" />
+      <created>1730240128494</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730240128494</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="asd" />
+    <option name="LAST_COMMIT_MESSAGE" value="asd" />
   </component>
 </project>
