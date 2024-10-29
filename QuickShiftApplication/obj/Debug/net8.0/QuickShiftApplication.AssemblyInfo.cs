@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuickShiftApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8ae1199603f4ef9aefae643de7a2da6ac144ca2")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuickShiftApplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuickShiftApplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -27,3 +27,4 @@ C:\Users\user\RiderProjects\QuickShiftApplication\QuickShiftApplication\obj\Debu
 C:\Users\user\RiderProjects\QuickShiftApplication\QuickShiftApplication\obj\Debug\net8.0\QuickShiftApplication.pdb
 C:\Users\user\RiderProjects\QuickShiftApplication\QuickShiftApplication\obj\Debug\net8.0\QuickShiftApplication.genruntimeconfig.cache
 C:\Users\user\RiderProjects\QuickShiftApplication\QuickShiftApplication\obj\Debug\net8.0\ref\QuickShiftApplication.dll
+C:\Users\user\RiderProjects\QuickShiftApplication\QuickShiftApplication\obj\Debug\net8.0\QuickShiftApplication.sourcelink.json
