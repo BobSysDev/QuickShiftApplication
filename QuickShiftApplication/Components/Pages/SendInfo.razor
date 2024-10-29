@@ -1,0 +1,87 @@
+﻿@page "/SendInfo"
+@rendermode InteractiveServer
+@inject QuickShiftApplication.Services.ItemService ItemService
+@inject HttpClient Http
+<PageTitle>SendInfo</PageTitle>
+
+<h3>SendInfo</h3>
+<p>This is the SendInfo page. You send items to the server.</p>
+
+<input @bind-value="inputText" placeholder="Enter text" />
+<button @onclick="AddToList">Send</button>
+
+@if (items.Any())
+{
+    <ul>
+        @foreach (var item in items)
+        {
+            <li>@item</li>
+        }
+    </ul>
+}
+else
+{
+    <p>No items in the list.</p>
+}
+
+@if (!string.IsNullOrEmpty(serverResponse))
+{
+    <p>Server Response: @serverResponse</p>
+}
+
+@code {
+    private string inputText = string.Empty;
+    private List<string> items = new List<string>();
+    private string serverResponse = string.Empty;
+    
+    private async Task<string> SendItemToServer(string item)
+    {
+        try
+        {
+            var response = await Http.PostAsJsonAsync("https://quickshift.electimore.xyz/Hello", item);
+            response.EnsureSuccessStatusCode();
+            var responseBody = await response.Content.ReadAsStringAsync();
+            Console.WriteLine($"Response: {responseBody}");  
+            return responseBody;
+        }
+        catch (HttpRequestException ex)
+        {
+            Console.WriteLine($"Request error: {ex.Message}");  
+            return $"Error: {ex.Message}";
+        }
+    }
+    
+    private async Task<List<string>> GetGreetingsFromServer()
+    {
+        try
+        {
+            var response = await Http.GetAsync("https://quickshift.electimore.xyz/Hello");
+            response.EnsureSuccessStatusCode();
+            var greetings = await response.Content.ReadFromJsonAsync<List<string>>();
+            return greetings ?? new List<string>();
+        }
+        catch (HttpRequestException ex)
+        {
+            Console.WriteLine($"Request error: {ex.Message}");
+            return new List<string> { $"Error: {ex.Message}" };
+        }
+    }
+
+    
+    protected override async Task OnInitializedAsync()
+    {
+        items = await GetGreetingsFromServer();
+    }
+
+  
+    private async Task AddToList()
+    {
+        if (!string.IsNullOrWhiteSpace(inputText))
+        {
+            serverResponse = await SendItemToServer(inputText);
+            items.Add(inputText);
+            inputText = string.Empty;
+            items = await GetGreetingsFromServer();
+        }
+    }
+}

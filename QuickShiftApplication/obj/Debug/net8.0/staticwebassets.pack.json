@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user\\RiderProjects\\QuickShiftApplication\\QuickShiftApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\QuickShiftApplication.bundle.scp.css",
+      "PackagePath": "staticwebassets\\QuickShiftApplication.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\RiderProjects\\QuickShiftApplication\\QuickShiftApplication\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\RiderProjects\\QuickShiftApplication\\QuickShiftApplication\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\RiderProjects\\QuickShiftApplication\\QuickShiftApplication\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\RiderProjects\\QuickShiftApplication\\QuickShiftApplication\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.QuickShiftApplication.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.QuickShiftApplication.props",
+      "PackagePath": "build\\QuickShiftApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.QuickShiftApplication.props",
+      "PackagePath": "buildMultiTargeting\\QuickShiftApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.QuickShiftApplication.props",
+      "PackagePath": "buildTransitive\\QuickShiftApplication.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

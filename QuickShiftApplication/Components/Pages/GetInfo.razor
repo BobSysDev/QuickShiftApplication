@@ -1,0 +1,35 @@
+﻿@page "/GetInfo"
+@inject QuickShiftApplication.Services.ItemService ItemService
+@inject HttpClient Http
+<PageTitle>GetInfo</PageTitle>
+<h3>GetInfo</h3>
+<p>This is the GetInfo page. You can view the stuff that is in the server.</p>
+
+@if (items.Any())
+{
+    <ul>
+        @foreach (var item in items)
+        {
+            <li>@item</li>
+        }
+    </ul>
+}
+else
+{
+    <p>No items in the list.</p>
+}
+
+@code {
+    private List<string> items = new List<string>();
+    
+    protected override async Task OnInitializedAsync()
+    {
+        items = await GetItemsFromServer();
+    }
+
+    private async Task<List<string>> GetItemsFromServer()
+    {
+        var response = await Http.GetFromJsonAsync<List<string>>("https://quickshift.electimore.xyz/Hello");
+        return response ?? new List<string>();
+    }
+}
